@@ -46,8 +46,9 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
           ))}
         </div>
       </div>
-      <div className="bg-[#FAFBFF] w-full">
+      <div className="bg-[#FAFBFF] w-full  flex flex-col">
         <Navbar />
+        <main className="">{children}</main>
       </div>
     </div>
   );
